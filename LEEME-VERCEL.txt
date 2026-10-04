@@ -1,0 +1,21 @@
+DISTRIBUIDORA DE CARNES JG — LISTA PARA VERCEL
+
+La carpeta raíz del proyecto es carnes (donde está package.json).
+
+La configuración ya está guardada en vercel.json:
+  Framework: Other
+  Build Command: npm run build
+  Output Directory: dist
+  Root Directory: raíz del proyecto
+
+No necesita claves, base de datos ni variables de entorno.
+Incluye los dos WhatsApp, carrito, ocho presentaciones de combos y sus precios originales en el detalle.
+
+Para publicar desde una terminal que ya tenga Vercel CLI:
+  vercel --prod
+
+También se puede importar el proyecto desde un repositorio en Vercel.
+La carpeta dist ya contiene una copia construida, pero el proyecto se importa desde carnes.
+
+revision-local contiene únicamente documentos de trabajo y capturas; no se publica.
+Esta preparación no publica el sitio por sí sola.
